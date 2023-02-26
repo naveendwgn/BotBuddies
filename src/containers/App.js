@@ -32,7 +32,7 @@ componentDidMount() {
 		}else {
 			return (
 				<div className='tc'>
-					<h1 className='f1' >BotBuddies</h1>
+					<h1 className='f1' >B o t  B u d d i e s</h1>
 					<SearchBox searchChange={this.onSearchChange}/>
 					<Scroll>
 						<CardList robots={filteredRobots}/>
